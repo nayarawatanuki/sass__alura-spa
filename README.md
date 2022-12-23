@@ -28,7 +28,6 @@ O projeto **[Alura SPA](https://nayarawatanuki.github.io/sass__alura-spa/)**, é
 
 ## :hammer: Funcionalidades e Demonstração da Aplicação
 A construção/estrutura da página foi pensada e focada mais na parte de `styles` (`Sass`), logo o projeto já foi iniciado com o (`HTML`) pronto. 
-Com decorrer do projeto, foi adaptado para telas maiores. Pois o objetivo é conseguir visualizar e utilizar a página em qualquer resolução ou dispositivo.
 </br></br>
 **IMPORTANTE** </br>
 > A função `@import`, atualmente (2022), só é necessária na folha de estilo principal. Não é mais necessário usá-la dentro das partials.
