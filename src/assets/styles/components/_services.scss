@@ -1,0 +1,53 @@
+#services {
+    margin: 80px;
+
+    h4 {
+        color: $second-color;
+        font-size: calc($text-size / 2.5);
+        font-weight: 300;
+        margin: 1rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-size: calc($text-size / 1.2);
+        font-weight: 300;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-evenly;
+
+        .card {
+            text-align: center;
+            width: 360px;
+
+            h5 {
+                color: $primary-color;
+                font-size: calc($text-size / 1.5);
+                font-weight: 300;
+                margin-bottom: 20px;
+                margin-top: 25px;
+            }
+
+            p {
+                font-size: calc($text-size / 3);
+                font-weight: 300;
+                color: $primary-color;
+                line-height: 1.25rem;
+            }
+
+            .img-container {
+                border-bottom: 6px solid $second-color;
+                padding-bottom: 2px;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

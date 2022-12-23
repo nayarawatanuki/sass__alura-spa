@@ -1,0 +1,31 @@
+.banner {
+    align-items: center;
+    background: url(../img/banner.jpeg) 27% center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    min-height: 350px;
+    opacity: 1.2;
+
+    .inner-banner {
+        border-radius: 30px;
+        opacity: 0.8;
+        padding: 3rem;
+
+        h1 {
+            color: $primary-color;
+            font-size: calc($text-size * 1.5);
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+        }
+
+        h2 {
+            color: $second-color;
+            font-family: Pacifico, cursive;
+            font-size: calc($text-size / 1.7);
+            padding-top: 2rem;
+            text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@mixin bg-colors($side, $colors...)
+    @if $side == left
+        background: linear-gradient(to left, $colors)
+    @else 
+        background: linear-gradient(to right, $colors)
+
+footer
+    text-align: center
+    font-size: calc($text-size / 2)
+    border-top: 2px solid $primary-color
+    margin-top: 1rem
+    padding: 1.2rem
+    @include bg-colors("", $primary-color, $second-color, $third-color, $primary-color)
+    i
+        color: red

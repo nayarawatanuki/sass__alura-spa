@@ -10,6 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&display=swap">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
         <!-- Reset CSS -->
@@ -36,8 +37,8 @@
                 </ul>
             </nav>
 
-            <section>
-                <div>
+            <section class="banner">
+                <div class="inner-banner">
                     <h1>Alura SPA</h1>
                     <h2>Venha viver o seu melhor dia!</h2>
                 </div>
@@ -45,44 +46,46 @@
         </header>
 
         <main>
-            <section>
-                <h3>O que oferecemos</h3>
-                <h4>Uma ampla diversidade de serviços com alto padrão de qualidade</h4>
+            <section id="services">
+                <h4>O que oferecemos</h4>
+                <h3>Uma ampla diversidade de serviços com alto padrão de qualidade</h3>
 
-                <div>
-                    <div>
-                        <img src="src/assets/img/beauty.jpeg" alt="mulher de toalha debruçada na cama">
+                <div class="cards">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="src/assets/img/beauty.jpeg" alt="mulher de toalha debruçada na cama">
+                        </div>
+                        <h5>Bem-estar</h5>
+                        <p>Estar bem com nós mesmos faz toda a diferença. Aproveite nossos tratamentos para ter um momento de autocuidado e aumentar a sua autoestima</p>
                     </div>
-                    <h5>Bem-estar</h5>
-                    <p>Estar bem com nós mesmos faz toda a diferença. Aproveite nossos tratamentos para ter um momento de autocuidado e aumentar a sua autoestima</p>
-                </div>
 
-                <div>
-                    <div>
-                        <img src="src/assets/img/well-being.jpeg" alt="mulher  deitada, coberta da cintura pra baixo, com pedras de massagem nas costas, ao lado de velas aromaticas">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="src/assets/img/well-being.jpeg" alt="mulher  deitada, coberta da cintura pra baixo, com pedras de massagem nas costas, ao lado de velas aromaticas">
+                        </div>
+                        <h5>Renovação</h5>
+                        <p>Você merece relaxar. Confira as nossas opções de massagens que vão fazer você renovar as energias e esquecer do estresse do dia a dia</p>
                     </div>
-                    <h5>Renovação</h5>
-                    <p>Você merece relaxar. Confira as nossas opções de massagens que vão fazer você renovar as energias e esquecer do estresse do dia a dia</p>
-                </div>
 
-                <div>
-                    <div>
-                        <img src="src/assets/img/lounge.jpeg" alt="pessoa meditando ao pôr do sol">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="src/assets/img/lounge.jpeg" alt="pessoa meditando ao pôr do sol">
+                        </div>
+                        <h5>Massagem</h5>
+                        <p>Se você precisa de um dia especial para cuidar de você, preparamos opções que promovem uma renovação completa. Confira nosos dias especiais, banhos e tratamentos holísticos.
+                        </p>
                     </div>
-                    <h5>Massagem</h5>
-                    <p>Se você precisa de um dia especial para cuidar de você, preparamos opções que promovem uma renovação completa. Confira nosos dias especiais, banhos e tratamentos holísticos.
-                    </p>
                 </div>
             </section>
 
-            <section>
-                <div>
+            <section id="coupon">
+                <div class="text">
                     <h2><i class="fas fa-gift"></i>
                     Inscreva-se para ganhar descontos!</h2>
                 </div>
-                <div>
+                <div class="subscription">
                     <form action="">
-                        <div>
+                        <div class="input">
                             <input type="email">
                         </div>
                         <button>enviar!</button>
@@ -90,14 +93,16 @@
                 </div>
             </section>
 
-            <section>
-                <div>
+            <section id="selfcare">
+                <div class="selfcare__img">
                     <img src="src/assets/img/stone-and-flower.jpeg" alt="orquidea lilás e 3 pedras ao lado, uma em cima da outra">
                 </div>
-                <div>
+                <div class="selfcare__text">
                     <h3>É sobre bem-estar</h3>
                     <h4>Cuide do seu corpo e leve boas memórias consigo.</h4>
-                    <p>Carregue com você o bem-estar, onde estiver. Leve o conforto do SPA para a sua casa. Confira nossas opções de sabonetes, sais de banho e velas para presentear você mesmo ou quem você ama.</p>
+                    <div>
+                        <p>Carregue com você o bem-estar, onde estiver. Leve o conforto do SPA para a sua casa. Confira nossas opções de sabonetes, sais de banho e velas para presentear você mesmo ou quem você ama.</p>
+                    </div>
                 </div>
             </section>
         </main>
