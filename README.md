@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Alura SPA" src="https://raw.githubusercontent.com/nayarawatanuki/sass__alura-spa/main/src/assets/img/readme/Alura-spa__cover.png"/>
+  <img alt="Alura SPA" src="https://raw.githubusercontent.com/nayarawatanuki/sass__alura-spa/main/src/assets/img/readme/Alura-spa__cover.png#vitrinedev"/>
 </h1>
 
 ### Índice
@@ -17,7 +17,7 @@
 ## :pencil: Descrição do Projeto
 O projeto **[Alura SPA](https://nayarawatanuki.github.io/sass__alura-spa/)**, é uma proposta de página web para um SPA, utilizando a estilização toda em Sass. 
 
-</br>Desenvolvido para o curso de **SASS - CSS SINTATICAMENTE ESPETACULAR** da platforma [Alura](https://www.alura.com.br/).
+</br>Desenvolvido para o curso de **SASS - CSS SINTATICAMENTE ESPETACULAR** da plataforma [Alura](https://www.alura.com.br/).
 
 </br>
 
